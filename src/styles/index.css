@@ -1,0 +1,125 @@
+.jumbotron {
+    border-radius: 0px !important;
+    background-color: #fff;
+}
+
+.no-border {
+    box-shadow: none;
+    outline: none;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+
+.no-border:focus {
+    border-bottom: 1.5px solid #007bff;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        max-height: 100px;
+    }
+    .username {
+        text-align: left;
+    }
+}
+
+.new-post {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  background: #CCC;
+  padding: 20px;
+  max-width: 45%;
+  transition: all 1s ease-in-out;
+}
+
+.ql-picker-options {
+  margin-top: -200%;
+  transition: all 1s ease-in-out;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  color: black;
+  transition: all 1s ease-in-out;
+}
+
+.ql-container.ql-snow {
+  background: white;
+  overflow-x: hidden;
+  max-width: 100%;
+  transition: all 1s ease-in-out;
+  border: 0px;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  max-height: 200px;
+  height: 400px;
+  transition: all 1s ease-in-out;
+  padding: 0px;
+}
+
+.ql-toolbar.ql-snow {
+  background: white;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+.ql-editor {
+  padding-left: 0px !important;
+}
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.form-control {
+  height: auto;
+  padding: 6px 0px;
+  border: 0px solid #ccc;
+}
+
+.panel {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+.panel-footer {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.form-control::placeholder {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.form-control {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.no-border:focus {
+  border-bottom: 0px solid #007bff;
+}

@@ -33,7 +33,7 @@ export function getNotes() {
 }
 
 export function saveNote(note) {
-    return disptch => database.push(note);
+    return dispatch => database.push(note);
 }
 
 export function editNote(id, note) {

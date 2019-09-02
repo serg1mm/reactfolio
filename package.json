@@ -8,7 +8,7 @@
     "moment": "^2.21.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-moment": "^0.7.0",
     "react-quill": "^1.2.6",
     "react-redux": "^5.0.6",
